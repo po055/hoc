@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ĐĂNG NHẬP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='dangnhap.css'>
+</head>
+<body>
+    <div class="text2">
+        <div class="text">
+            <div class="nav">
+                <a href="#" class="nav-item"><i class="fas fa-snowflake"></i>NOEL</a>
+                <a href="index.html" class="nav-item">Trang Chủ</a>
+                <a href="dichvu.html" class="nav-item">Dịch Vụ</a>
+                <a href="dangnhap.html" class="nav-item">Đăng Nhập</a>
+            </div>
+        </div>
+        <div class="text1">
+            <h1>Lưu Thông Tin</h1>
+            <form action="success.html" onsubmit="return validateForm()">
+                <div class="form-item">
+                    <label for="name">Họ Và Tên</label><br>
+                    <input type="text" placeholder="Họ và tên" id="name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Email" id="email"><br>
+                    <label for="phone">Số Điện Thoại</label><br>
+                    <input type="number" placeholder="Số điện thoại" id="phone"><br>
+                    <button>ĐĂNG NHẬP</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src='dangnhap.js'></script>
+</body>
+</html>

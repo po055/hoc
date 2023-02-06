@@ -1,0 +1,237 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+.text1 {
+    display: flex;
+    background-color:lightskyblue;
+    width:100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-item i {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.nav {
+    display: flex;
+    align-items:center; 
+    justify-content:space-around;
+    font-size: 32px;
+    width:100%;            
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(lightskyblue,lightskyblue 50%, rgb(6, 72, 143) 50%, rgb(6, 72, 143));
+    background-size: 100% 200%;
+    transition: background 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a:hover {
+    background-position: 100% 100%;
+}
+
+.text-2 {
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.text-2 h1 {
+    font-size: 35px;
+    padding: 0px 10px;
+} 
+
+.dropdown-content {
+    background-color: lightskyblue;
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+
+.dropdown-content button {
+    background-color:snow;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.dv h2 {
+    margin: 0px 54px 20px;
+    padding: 10px 0px;
+    font-size: 32px;
+} 
+.vp-ha {
+    display: flex;
+    justify-content: space-evenly; 
+}
+.dv-ha-1 button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+}  
+    
+
+.dv-ha-1 {
+    text-align: center;
+}
+
+.dv-ha-1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.nc-ha {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.nc-ha-1 button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+}  
+    
+.nc-ha-1 {
+    text-align: center;
+}
+
+.nc-ha-1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.ch-ha {
+    display: flex;
+    justify-content: space-evenly; 
+}
+.ch-ha-1 button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+}  
+    
+.ch-ha-1 {
+    text-align: center;
+}
+
+.ch-ha-1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.ct-ha {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.ct-ha-1 button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+}  
+    
+.ct-ha-1 {
+    text-align: center;
+}
+
+.ct-ha-1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.nt-ha {
+    display: flex;
+    justify-content: space-evenly; 
+}
+.nt-ha-1 button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+}  
+    
+.nt-ha-1 {
+    text-align: center;
+}
+
+.nt-ha-1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.pk-ha {
+    display: flex;
+    justify-content: space-evenly; 
+}
+.pk-ha-1 button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+}  
+    
+.pk-ha-1 {
+    text-align: center;
+}
+
+.pk-ha-1 img {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.footer {
+    display: flex;
+    background-color:lightskyblue;
+    justify-content: space-around;
+    color: white;
+    margin-top: 120px;
+}
+
+.icons i {
+    font-size: 40px;
+    color:white;
+    margin: 3px;
+}
+
+.map {
+    margin: 10px 0;
+}
